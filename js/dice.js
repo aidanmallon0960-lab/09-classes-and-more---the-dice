@@ -13,7 +13,7 @@ class Dice {
     this.face = this.createFace();
     this.value = 1;
     this.locked = false;
-    this.addClickHandler();
+    // this.addClickHandler();
   }
 
   get value() {
